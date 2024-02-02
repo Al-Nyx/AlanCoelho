@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+
+body {
+    display: flex;
+    position: relative;
+    background: rgb(15, 15, 15);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    justify-content: center;
+    background-size: cover;
+
+
+}
+
+
+.title {
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    background-image: url(img-ca/blu.jpg);
+    padding: 10px;
+    margin-bottom: 0%;
+
+}
+
+.eu {
+    margin: 2%;
+    background-color: rgba(66, 66, 66, 0.114);
+    background-size: cover;
+    border-radius: 10px;
+    padding: 1%;
+
+}
+.h1 {
+    color: rgb(180, 180, 180);
+    font-family: 'Libre Baskerville', serif;
+    font-size: 40px;
+    margin-bottom: 0%;
+    text-shadow: 0px 0px 10px rgb(0, 0, 0), 0px 0px 10px rgb(16, 16, 16);
+
+
+
+}
+
+
+.h1-ft,
+.h1-Sm {
+    color: #a80d0de7;
+    text-shadow: 0px 0px 10px rgb(62, 62, 62), 0px 0px 10px rgb(0, 0, 0);
+}
+
+
+
+
+.rodape {
+
+    color: white;
+    background-image: url(img-ca/blu.jpg);
+    text-align: center;
+    font-size: 15px;
+    padding: 30px;
+    margin-top: 10%;
+
+
+}
+
+.sobre {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+
+
+}
+
+
+.abas {
+
+    font-family: 'Libre Baskerville', serif;
+    background: linear-gradient(to bottom, );
+    padding: 3px;
+    text-align: center;
+
+}
+
+a.abas-1 {
+    background-color: rgba(49, 49, 49, 0.091);
+    color: #afafaf;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+
+a.abas-1:hover {
+    background-color: rgb(131, 28, 28);
+    color: #afafaf;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 10px rgb(5, 54, 89), 0px 0px 10px rgb(3, 79, 126);
+
+}
+
+
+a.abas-2 {
+    background-color: rgba(49, 49, 49, 0.091);
+    color: #afafaf;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+a.abas-2:hover {
+    background-color: rgb(131, 28, 28);
+    color: #afafaf;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 10px rgb(5, 54, 89), 0px 0px 10px rgb(3, 79, 126);
+
+}
+
+a.abas-3 {
+    background-color: rgba(49, 49, 49, 0.091);
+    color: #afafaf;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+a.abas-3:hover {
+    background-color: rgb(131, 28, 28);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 10px rgb(5, 54, 89), 0px 0px 10px rgb(3, 79, 126);
+}
+
+a.abas-4 {
+    background-color: rgba(49, 49, 49, 0.091);
+    color: #afafaf;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 2px;
+
+}
+
+a.abas-4:hover {
+    background-color: rgb(131, 28, 28);
+    color: #afafaf;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 10px rgb(8, 79, 150), 0px 0px 10px rgb(3, 75, 120);
+}
+
+.linha,
+.linha-6 {
+    border: none;
+    height: 4px;
+    width: 3%;
+    background-color: #9d1414;
+    margin-top: 10px;
+
+
+
+}
+
+.linha-sob {
+    border: none;
+    height: 5px;
+    width: 8%;
+    background-color: #770808;
+
+}
+
+.linha-2 {
+    border: none;
+    height: 5px;
+    width: 4%;
+    box-shadow: 0px 0px 10px rgb(141, 10, 10), 0px 0px 10px rgb(140, 7, 7);
+
+
+
+
+
+}
+
+.linha-4 {
+    display: flex;
+    border: none;
+    height: 10px;
+    width: 100%;
+    background-color: #8f1414;
+    box-shadow: 0px 0px 10px rgb(141, 10, 10), 0px 0px 10px rgb(140, 7, 7);
+
+}
+
+.linha-4:hover {
+    display: flex;
+    border: none;
+    height: 10px;
+    width: 100%;
+    background-color: #155978;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0), 0px 0px 10px rgb(11, 119, 143);
+
+}
+
+.linha-reds {
+    position: relative;
+    border: none;
+    height: 2px;
+    width: 45%;
+    background-color: #5d0505;
+    top: 20px;
+
+}
+
+
+.img-reds1 {
+    width: 5%;
+    margin-right: 30px;
+
+}
+
+.img-reds2 {
+    width: 5%;
+    margin-right: 30px;
+}
+
+.img-reds3 {
+    width: 1%;
+    margin-right: 30px;
+
+}
+
+
+.album-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0%;
+
+}
+
+.photo {
+    margin: 1px;
+    text-align: center;
+   
+
+}
+
+.photo img {
+    max-width: 20%;
+    border: 5px solid #575656;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    
+}
+
+.photo img:hover {
+    max-width: 20%;
+    border: 5px solid #0b0b0b;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgb(141, 10, 10), 0px 0px 10px rgb(140, 7, 7);
+
+}
+
+
+.photo p {
+    margin: 5px 0;
+    color: #8f1414;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CSS DA PAGINA DE CHUVA */
